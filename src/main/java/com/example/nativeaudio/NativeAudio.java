@@ -284,6 +284,7 @@ public class NativeAudio extends Activity {
     {
         shutdown();
         super.onDestroy();
+
     }
 
     /** Native methods, implemented in jni folder */
